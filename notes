@@ -1,0 +1,19 @@
+Bootstrap-Grid: 
+
+    container/container-fluid-->Root element 
+    row-->parent flex container
+    col-->flex items size
+
+    col-{screensize}-{no of columns}
+        breakpoint-->xs,sm,md,lg,xl
+        columns-->1-12
+    
+    order:
+        order-{screensize}-{order sequence}
+
+    justify-content:
+        justify-content-{screensize}-{value}
+        value-->center,start,end,around,between
+
+    offset:
+        offset-{screensize}-{0-12}
