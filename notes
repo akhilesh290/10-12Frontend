@@ -4,16 +4,109 @@ Bootstrap-Grid:
     row-->parent flex container
     col-->flex items size
 
-    col-{screensize}-{no of columns}
+    col-{breakpoint}-{no of columns}
         breakpoint-->xs,sm,md,lg,xl
         columns-->1-12
     
     order:
-        order-{screensize}-{order sequence}
+        order-{breakpoint}-{order sequence}
 
     justify-content:
-        justify-content-{screensize}-{value}
+        justify-content-{breakpoint}-{value}
         value-->center,start,end,around,between
 
     offset:
-        offset-{screensize}-{0-12}
+        offset-{breakpoint}-{0-12}
+
+    align items:
+        align-items-{breakpoint}-{start,end,center,stretch}
+
+    align self:
+        align-self-{breakpoint}-{start,end,center,stretch}
+
+
+Bootstrap colors:
+    colors:
+        primary
+        secondary
+        danger
+        warning
+        success
+        info
+        light
+        dark
+        white
+        muted
+        body        
+        white-50        
+        black-50
+
+Bootstrap Text
+    text-{colors}
+    text-{breakpoint}-{align value} -->  align value-->justify,left,right,center
+    text-truncate
+    text-break
+    text-{uppercase,lowercase,capitalize}
+
+    font-weight-{bold,bolder,normal,light,lighter}
+    font-italic
+
+    text-monospace
+
+    text-reset
+
+    text-decoration-none
+   
+
+
+Bootstrap background colors
+    bg-{color,transparent}
+
+Bootstrap Border
+    border --->All four sides
+    border-{top,bottom,left,right} --->Selective sides
+    border-0 --->No border
+    border-{top,bottom,left,right}-0 --->No border at given side
+    border-{color} --->For border color
+
+    Border Radius
+        rounded
+        rounded-{sides}
+        rounded-circle
+        rounded-pill
+        rounded-0
+
+Bootstrap Display Property
+    d-{breakpoint}-{values}
+
+    values-->inline,block,inline-block,flex,inline-flex,none
+
+    eg. d-md-block
+
+Bootstrap Spacing
+    margin:
+        m-{breakpoint}-{value}
+        m{sides}-{breakpoint}-{value}
+
+        sides-->t,b,l,r,x,y
+        value-->0-5,auto
+        eg. ml-auto
+
+    margin:
+        p-{breakpoint}-{value}
+        p{sides}-{breakpoint}-{value}
+
+        sides-->t,b,l,r,x,y
+        value-->0-5
+        eg. pl-5
+
+Bootstrap Visibility
+    invisible
+    visible
+
+Bootstrap Shadow
+    shadow
+    shadow-{none,sm,lg}
+
+Bootstrap Overflow
+    overflow-{auto,none}
