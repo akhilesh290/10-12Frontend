@@ -50,3 +50,46 @@
 #slider .carousel-caption {
     top: 40%;
 }
+
+
+/* services */
+.services-2 p {
+    line-height: 28px;
+}
+
+
+/* about */
+.banner {
+    background-image: url(../img/hero_1.jpg);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+
+}
+
+.overlay-video {
+    width: 10vh;
+    height: 10vh;
+    margin-top: 35vh;
+}
+
+
+/* footer */
+#footer {
+    background-image: linear-gradient(to right, #7a5e86 0%, #a75e67 51%, #f77b2e 100%);
+}
+
+#footer ul {
+    list-style: none;
+}
+
+.subscribe {
+
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+}
+
+input[type="text"] {
+    border-top-left-radius: 5px !important;
+    border-bottom-left-radius: 5px !important;
+}
