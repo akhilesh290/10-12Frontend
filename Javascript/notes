@@ -1,0 +1,17 @@
+DataTypes:
+    1.String
+    2.Number
+    3.Boolean
+    4.Undefined
+    5.Null
+
+Naming Convention:
+    1.Camel case-->fullname-->fullname
+    2.Pascal Case-->fullname
+    3.full_name
+
+     -5 -4 -3 -2 -1 0 1 2 3 4 5
+
+     code
+
+     ccocodcode
